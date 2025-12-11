@@ -19,3 +19,28 @@
     min-inline-size: 320px;
     min-block-size: 100dvb;
 }
+
+.header {
+    font-family: var(--accent-font-family), sans-serif;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border: 2px solid black;
+    background-color: var(--content-background-color);
+    padding-block-start: var(--header-padding-block);
+    padding-block-end: var(--header-padding-block);
+    gap: 20px;
+    inline-size: var(--content-inline-size);
+    margin-block: 100px;
+    margin-inline: auto;
+}
+
+.logo {
+    font-size: var(--logo-font-size);
+}
+
+.title {
+    font-size: var(--title-font-size);
+    text-transform: uppercase;
+}
