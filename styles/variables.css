@@ -4,4 +4,5 @@
     --accent-font-family: 'PressStart2P';
     --font-weight: 410;
     --card-title-font-weight: 715;
+    --background-image: repeating-linear-gradient(to right, #d3d3d3, transparent 4px), repeating-linear-gradient(to bottom, #d3d3d3, transparent 4px), linear-gradient(to bottom, #e7e7e7 0% 0.01%, #1a1a1a);
 }
