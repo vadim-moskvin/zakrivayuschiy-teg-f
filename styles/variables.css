@@ -4,10 +4,12 @@
     --accent-font-family: 'PressStart2P';
     --font-weight: 410;
     --card-title-font-weight: 715;
+    --font-size: 18px;
     --background-image: repeating-linear-gradient(to right, #d3d3d3, transparent 4px), repeating-linear-gradient(to bottom, #d3d3d3, transparent 4px), linear-gradient(to bottom, #e7e7e7 0% 0.01%, #1a1a1a);
     --content-inline-size: clamp(23.4375rem, 16.2852rem + 30.5164vw, 43.75rem);
     --logo-font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
     --title-font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
     --header-padding-block: clamp(7.625rem, 7.4489rem + 0.7512vw, 8.125rem);
     --content-background-color: #FFFFFF;
+    --label-outline-color: #FFFFFF;
 }
