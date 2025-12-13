@@ -33,6 +33,13 @@ button {
     padding-block-end: 100px;
 }
 
+.main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
 .content-section {
     border: 2px solid black;
     background-color: var(--content-background-color);
@@ -50,7 +57,7 @@ button {
     padding-block-end: var(--header-padding-block);
     gap: 20px;
     margin-block-start: 100px;
-    margin-block-end: 96px;
+    margin-block-end: var(--header-margin-block-end);
 }
 
 .logo {
@@ -74,10 +81,11 @@ button {
 
 .card__title {
     font-size: inherit;
-    line-height: 32px;
+    display: flex;
+    align-items: center;
     padding: 0 10px;
     font-variation-settings: 'wght' var(--card-title-font-weight);
-    block-size: 32px;
+    margin-block: 4px;
 }
 
 .card__image-container {
@@ -143,18 +151,17 @@ button {
 .save-button {
     display: flex;
     align-items: center;
+    flex-direction: var(--save-button-flex-direction);
     justify-content: center;
-    margin: 0 auto;
-    padding: 20.5px 20px;
+    padding: 17px 18px;
     background-color: #FFFFFF;
-    block-size: 55px;
-    margin-block-start: 52px;
+    block-size: var(--save-button-block-size);
     gap: 8px;
 }
 
 .save-button__image {
-    block-size: 21px;
-    inline-size: 21px;
+    block-size: var(--save-button-icon-size);
+    inline-size: var(--save-button-icon-size);
     mix-blend-mode: hard-light;
     fill: Red;
 }
