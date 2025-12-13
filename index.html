@@ -287,11 +287,18 @@
             </article>
         </li>
     </ul>
-    <button class="save-button">
-        <img alt="floppy" class="save-button__image" src="images/floppy.svg">
+    <button class="save-button" onclick="window['save-dialog'].showModal()">
+        <img alt="Дискета" class="save-button__image" src="images/floppy.svg">
         <span class="save-button__text">Сохранить на память</span>
     </button>
 </main>
+<dialog class="save-dialog" id="save-dialog">
+    <div class="save-dialog__content">
+        <img alt="Дискета" class="save-dialog__image" src="images/floppy.svg">
+        <span class="save-dialog__text">Вставьте дискету, чтобы продолжить</span>
+    </div>
+    <button class="save-dialog__button" onclick="window['save-dialog'].close()">ок</button>
+</dialog>
 <script src="./scripts/like.js"></script>
 </body>
 </html>
