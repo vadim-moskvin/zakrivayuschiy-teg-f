@@ -17,6 +17,9 @@
     --save-button-flex-direction: row;
     --save-button-icon-size: 21px;
     --save-dialog-block-size: 353px;
+
+    --contour-color: #000000;
+    --sparks-color: #FF0000;
 }
 
 @media (width <= 375px) {
