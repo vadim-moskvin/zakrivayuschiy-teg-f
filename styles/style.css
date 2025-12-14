@@ -106,10 +106,6 @@ button {
     gap: 52px;
 }
 
-.card {
-
-}
-
 .card__title {
     font-size: inherit;
     display: flex;
