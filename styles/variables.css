@@ -19,7 +19,7 @@
     --save-dialog-block-size: 353px;
 
     --contour-color: #000000;
-    --sparks-color: #FF0000;
+    --animation-fill-color: #FF0000;
 }
 
 @media (width <= 375px) {
