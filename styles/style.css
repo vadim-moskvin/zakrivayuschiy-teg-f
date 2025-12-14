@@ -207,3 +207,31 @@ button {
     text-transform: uppercase;
     inline-size: 100%;
 }
+
+.image2 {
+    filter: brightness(200%);
+}
+
+.image3 {
+    filter: contrast(20%);
+}
+
+.image4 {
+    filter: blur(3.2rem);
+}
+
+.image5 {
+    filter: opacity(0.8);
+}
+
+.image6 {
+    filter: grayscale(0.8);
+}
+
+.image7 {
+    filter: saturate(158%);
+}
+
+.image8 {
+    filter: sepia(1) contrast(2) brightness(200%);
+}
