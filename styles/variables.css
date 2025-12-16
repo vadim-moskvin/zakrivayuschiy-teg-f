@@ -17,6 +17,8 @@
     --save-button-flex-direction: row;
     --save-button-icon-size: 21px;
     --save-dialog-block-size: 353px;
+    --save-dialog-padding: 28px;
+    --save-dialog-inline-size: 353px;
 
     --contour-color: #000000;
     --animation-fill-color: #FF0000;
@@ -29,5 +31,7 @@
         --save-button-flex-direction: column;
         --save-button-icon-size: 29px;
         --save-dialog-block-size: 341px;
+        --save-dialog-padding: 28px 38px;
+        --save-dialog-inline-size: 341px;
     }
 }
