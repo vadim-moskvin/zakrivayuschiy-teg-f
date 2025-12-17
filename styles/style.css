@@ -93,6 +93,7 @@ button {
 
 .logo {
     font-size: var(--logo-font-size);
+    text-decoration: none;
 }
 
 .title {
@@ -197,6 +198,7 @@ button {
 .save-button__image {
     block-size: var(--save-button-icon-size);
     inline-size: var(--save-button-icon-size);
+    flex-shrink: 0;
 }
 
 .save-dialog {
